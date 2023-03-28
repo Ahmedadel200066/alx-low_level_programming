@@ -5,7 +5,9 @@
 
 /**
   *randomPasswordGeneration - Function that randomly generates
+  *
   *passwords of length n.
+  *
   *@N: password length
   *
   *Return: Nothing.
