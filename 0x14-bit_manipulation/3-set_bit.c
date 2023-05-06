@@ -9,12 +9,12 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-    unsigned int aux;
+	unsigned int aux;
 
-    if (index > sizeof(unsigned int) * 16)
-        return (-1);
-    aux = 1;
-    aux = aux << index;
-    *n = ((*n) | aux);
-    return (1);
+	if (index > sizeof(unsigned int) * 16)
+		return (-1);
+	aux = 1;
+	aux = aux << index;
+	*n = ((*n) | aux);
+	return (1);
 }
