@@ -7,12 +7,12 @@
  **/
 int get_endianness(void)
 {
-    int num;
-    char *adrs;
+	int num;
+	char *adrs;
 
-    num = 2;
-    adrs = (char *)&num;
-    if (*adrs)
-        return (1);
-    return (0);
+	num = 2;
+	adrs = (char *)&num;
+	if (*adrs)
+		return (1);
+	return (0);
 }
