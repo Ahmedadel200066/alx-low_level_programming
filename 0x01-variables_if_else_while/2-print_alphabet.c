@@ -14,7 +14,7 @@ int main(void)
 	{
 		char x = 'i';
 
-		putchar('x');
+		putchar(x);
 	}
 	return (0);
 }
