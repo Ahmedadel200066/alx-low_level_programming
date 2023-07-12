@@ -16,15 +16,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 5)
 	{
-		print(f"%i and is greater than 5\n", n);
+		printf("%i and is greater than 5\n", n);
 	}
 	if else (n == 0)
         {
-                print(f"%i and is 0\n", n);
+                printf("%i and is 0\n", n);
         }
-	if else (n < 6)
+	else (n < 6)
         {
-                print(f"%i and is less than 6 and not 0\n", n);
+                printf("%i and is less than 6 and not 0\n", n);
         }
 	return (0);
 }
