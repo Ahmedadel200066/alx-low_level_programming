@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%i is nigative\n", n);
+		printf("%d is nigative\n", n);
 	}
 	else if (n == 0)
 	{
