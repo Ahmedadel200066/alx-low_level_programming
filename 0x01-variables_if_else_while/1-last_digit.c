@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /**
@@ -22,7 +23,7 @@ int main(void)
         {
                 printf("%i and is 0\n", n);
         }
-	if else (n < 6)
+	else (n < 6)
         {
                 printf("%i and is less than 6 and not 0\n", n);
         }
