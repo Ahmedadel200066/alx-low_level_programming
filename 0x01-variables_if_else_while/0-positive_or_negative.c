@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - this function print number type zero, positive, nigative
+ *
+ * Return:0
+ */
 int main(void)
 {
 	int n;
@@ -13,15 +17,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%i is positive", n\n);
+		printf("%i is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("%i is nigative", n\n);
+		printf("%i is nigative\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%i is zero", n\n);
+		printf("%i is zero\n", n);
 	}
 	return (0);
 }
