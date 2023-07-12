@@ -13,5 +13,6 @@ int main(void)
 	{
 		putchar(i);
 	}
+	putchar('32')
 	return (0);
 }
