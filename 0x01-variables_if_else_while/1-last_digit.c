@@ -19,11 +19,11 @@ int main(void)
 	{
 		printf("%i and is greater than 5\n", n);
 	}
-	if else (n == 0)
+	else if (n == 0)
         {
                 printf("%i and is 0\n", n);
         }
-	if else (n < 6)
+	else (n < 6)
         {
                 printf("%i and is less than 6 and not 0\n", n);
         }
