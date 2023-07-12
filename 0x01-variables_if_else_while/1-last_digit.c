@@ -22,7 +22,7 @@ int main(void)
         {
                 printf("%i and is 0\n", n);
         }
-	else (n < 6)
+	if else (n < 6)
         {
                 printf("%i and is less than 6 and not 0\n", n);
         }
