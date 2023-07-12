@@ -7,12 +7,13 @@
  */
 int main(void)
 {
+	char x = '32';
 	char i;
 
 	for (i = 'a' ; i <= 'z' ; i++)
 	{
 		putchar(i);
 	}
-	putchar('32')
+	putchar(x)
 	return (0);
 }
