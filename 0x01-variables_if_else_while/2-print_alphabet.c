@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char x = '32';
+	char x = '\n';
 	char i;
 
 	for (i = 'a' ; i <= 'z' ; i++)
