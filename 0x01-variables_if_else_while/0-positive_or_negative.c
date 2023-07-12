@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * main - this function print number type zero, positive, nigative
+ * main - this function print number type zero, positive, negative
  *
  * Return:0
  */
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is nigative\n", n);
+		printf("%i is negative\n", n);
 	}
 	else if (n == 0)
 	{
