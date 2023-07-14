@@ -23,6 +23,10 @@ int main(void)
 		putchar(i);
 		putchar(comma);
 		putchar(space);
+		if (x== 58 && i== 59)
+		{
+			continue;
+		}
 		if (x == i)
 		{
 			continue;
