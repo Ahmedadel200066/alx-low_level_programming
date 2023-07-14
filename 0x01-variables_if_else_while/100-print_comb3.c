@@ -15,6 +15,7 @@ int main(void)
 
 	for (x = 48 ; x <= 57 ; x++)
 	{
+		i++
 		for (i = 49 ; i <= 57 ; i++)
 		{
 		putchar(x);
