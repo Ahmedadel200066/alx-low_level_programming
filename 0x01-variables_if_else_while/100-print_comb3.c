@@ -21,7 +21,7 @@ int main(void)
 		{
 		putchar(x);
 		putchar(i);
-		if (x == 8)
+		if (x == 56)
 		{
 			continue;
 		}
