@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int x;
+	int i,x;
 	int comma = 44;
 	int space = 32;
 
