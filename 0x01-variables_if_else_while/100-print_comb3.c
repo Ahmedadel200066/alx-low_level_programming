@@ -17,7 +17,7 @@ int main(void)
 	{
 		for (i = 49 ; i <= 57 ; i++)
 		{
-		i++
+		i++;
 		putchar(x);
 		putchar(i);
 		putchar(comma);
