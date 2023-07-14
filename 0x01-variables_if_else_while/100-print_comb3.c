@@ -10,14 +10,15 @@
 int main(void)
 {
 	int i, x;
+	int z = 49;
 	int comma = 44;
 	int space = 32;
 
 	for (x = 48 ; x <= 57 ; x++)
 	{
-		for (i = 49 ; i <= 57 ; i++)
+		z++;
+		for (i = z ; i <= 57 ; i++)
 		{
-		i++;
 		putchar(x);
 		putchar(i);
 		putchar(comma);
