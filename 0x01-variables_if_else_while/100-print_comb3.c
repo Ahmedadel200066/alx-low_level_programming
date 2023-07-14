@@ -21,12 +21,12 @@ int main(void)
 		{
 		putchar(x);
 		putchar(i);
-		putchar(comma);
-		putchar(space);
-		if (x== 58 && i== 59)
+		if (x == 8)
 		{
 			continue;
 		}
+		putchar(comma);
+		putchar(space);
 		if (x == i)
 		{
 			continue;
