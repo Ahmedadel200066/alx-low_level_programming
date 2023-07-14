@@ -10,7 +10,7 @@
 int main(void)
 {
 	int x;
-	int comma = 247;
+	int comma = 44;
 	int space = 32;
 
 	for (x = 48 ; x <= 57 ; x++)
