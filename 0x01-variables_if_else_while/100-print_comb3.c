@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i, x;
-	int z = 49;
+	int z = 48;
 	int comma = 44;
 	int space = 32;
 
