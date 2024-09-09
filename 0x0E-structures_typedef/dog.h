@@ -3,9 +3,8 @@
 
 struct dog
 /**
- * @struct dog
- * Structure representing a dog.
- * Contains the name, age, and owner of the dog.
+ * @struct : about dog stats
+ *
  */
 {
 	char *name;
