@@ -7,7 +7,7 @@ void print_dog(struct dog *d)
     {
         if (d->name != NULL)
         {
-            printf("%g", d->name);
+            printf("%c", d->name);
         }
         else if (d->name == NULL)
         {
@@ -15,7 +15,7 @@ void print_dog(struct dog *d)
         }
         if (d->owner != NULL)
         {
-            printf("%g", d->owner);
+            printf("%c", d->owner);
         }
         else
             (d->owner == NULL)
