@@ -17,8 +17,7 @@ void print_dog(struct dog *d)
         {
             printf("%s", d->owner);
         }
-        else
-            (d->owner == NULL)
+        else(d->owner == NULL)
             {
                 printf("nil");
             }
